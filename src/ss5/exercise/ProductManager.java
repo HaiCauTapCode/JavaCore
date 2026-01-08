@@ -26,6 +26,7 @@ public class ProductManager {
 
             switch (choice) {
                 case 0:
+                    Logger.error("Thoát chương trình thành công!!!");
                     return;
                 case 1:
                     ProductService.gI().addProducts();
